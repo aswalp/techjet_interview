@@ -23,7 +23,7 @@ class ServicesFirebaseAuth {
     return await auth.signInWithCredential(credential);
   }
 
-  static void logout() async {
+  static Future<void> logout() async {
     await auth.signOut();
     await GoogleSignIn().signOut();
   }

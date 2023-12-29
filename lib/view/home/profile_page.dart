@@ -65,8 +65,9 @@ class ProfilePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   )),
               onPressed: () {
-                context.go(AuthPage.path);
-                ServicesFirebaseAuth.logout();
+                ServicesFirebaseAuth.logout().then((value) {
+                  context.go(AuthPage.path);
+                });
               },
               icon: const Icon(
                 Icons.logout,
