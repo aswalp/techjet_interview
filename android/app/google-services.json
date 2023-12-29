@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "886823353698",
+    "project_id": "techjet-interview",
+    "storage_bucket": "techjet-interview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886823353698:android:5143d3dde2bcb5b581803b",
+        "android_client_info": {
+          "package_name": "com.example.techjet_interview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886823353698-klueus11lvp45moqu319unadspmvjc1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.techjet_interview",
+            "certificate_hash": "b1221ee645a97fff5e5a12c6aa503fb0e8ded269"
+          }
+        },
+        {
+          "client_id": "886823353698-33ord3qdqk4c0jvesmjmsl5sfjm4joth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT9UgfoHqr0YZc5XT0lcXbgigahJX7FfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886823353698-33ord3qdqk4c0jvesmjmsl5sfjm4joth.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "886823353698-pdpopcmiu2cv0qumob5lrud00s9d9q04.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.techjetInterview"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
