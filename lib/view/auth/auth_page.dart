@@ -19,25 +19,13 @@ class AuthPage extends StatelessWidget {
       body: SafeArea(
           child: Column(
         children: [
-          Stack(
-            children: [
-              SizedBox(
-                  width: context.maxWidth(),
-                  height: context.maxHeight() * 0.6,
-                  child: Image.asset(
-                    "assets/image_auth/auth_image.jpeg",
-                    fit: BoxFit.cover,
-                  )),
-              //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-              // Positioned(
-              //   top: 50,
-              //   child: IconButton(
-              //       onPressed: () {},
-              //       color: Colors.red,
-              //       icon: Icon(Icons.arrow_back_ios_new_outlined)),
-              // ),
-            ],
-          ),
+          SizedBox(
+              width: context.maxWidth(),
+              height: context.maxHeight() * 0.6,
+              child: Image.asset(
+                "assets/image_auth/auth_image.jpeg",
+                fit: BoxFit.cover,
+              )),
           SizedBox(
             height: context.responsiveHeight(30),
           ),
